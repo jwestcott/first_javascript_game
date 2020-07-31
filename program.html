@@ -5,31 +5,12 @@
 </head>
 <body>
 <script>
-var canvas = document.createElement('canvas');
-canvas.width = 800;
-canvas.height = 600;
-var c = canvas.getContext('2d');
-
-var image = new Image();
-image.src = 'nanonauts/nanonaut.png';
-
-var x = 0;
-var y = 40;
-
-window.addEventListener('load', start);
-
-function start() {
-    window.requestAnimationFrame(loop);
-}
-
-function loop() {
-    c.clearRect(0, 0, 800, 600);
-    c.drawImage(image, x, y);
-    x = x + 1;
-    window.requestAnimationFrame(loop);
-}
-
-document.body.appendChild(canvas);
+// Constants
+// Setup
+// Main Loop
+// Player Input
+// Updating
+// Drawing
 </script>
 </body>
 </html>
